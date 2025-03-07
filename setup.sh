@@ -53,6 +53,7 @@ yay -S \
     android-sdk \
     android-studio \
     aosp-devel \
+    balena-etcher \
     downgrade \
     extension-manager \
     google-chrome \
