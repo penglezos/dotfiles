@@ -31,6 +31,7 @@ sudo pacman -S \
     htop \
     hugo \
     inter-font \
+    jq \
     keepassxc \
     libreoffice-still \
     nodejs \
