@@ -19,6 +19,7 @@ sudo pacman -S \
     bluez-utils \
     cups \
     cups-pdf \
+    fastfetch \
     filezilla \
     firefox \
     gedit \
@@ -30,7 +31,6 @@ sudo pacman -S \
     htop \
     keepassxc \
     libreoffice-still \
-    neofetch \
     nodejs \
     npm \
     ntfs-3g \
