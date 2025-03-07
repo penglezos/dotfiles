@@ -12,6 +12,7 @@ echo -e "Installing packages...\n"
 sudo pacman -S \
     android-tools \
     android-udev \
+    audacity \
     base-devel \
     blueman \
     bluez \
