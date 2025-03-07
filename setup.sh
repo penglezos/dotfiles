@@ -30,6 +30,7 @@ sudo pacman -S \
     gnome-tweaks \
     htop \
     hugo \
+    inter-font \
     keepassxc \
     libreoffice-still \
     nodejs \
