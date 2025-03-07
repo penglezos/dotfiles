@@ -29,6 +29,7 @@ sudo pacman -S \
     github-cli \
     gnome-tweaks \
     htop \
+    hugo \
     keepassxc \
     libreoffice-still \
     nodejs \
