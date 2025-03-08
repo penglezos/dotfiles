@@ -38,6 +38,7 @@ sudo pacman -S \
     nodejs \
     npm \
     ntfs-3g \
+    openrgb \
     pacman-contrib \
     powertop \
     telegram-desktop \
