@@ -1,0 +1,21 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "gitlens.telemetry.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.yml": "default"
+    },
+    "window.autoDetectColorScheme": true
+}
