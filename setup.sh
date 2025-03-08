@@ -34,6 +34,7 @@ sudo pacman -S \
     jq \
     keepassxc \
     libreoffice-still \
+    mission-center \
     nodejs \
     npm \
     ntfs-3g \
