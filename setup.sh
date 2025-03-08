@@ -40,6 +40,7 @@ sudo pacman -S \
     ntfs-3g \
     openrgb \
     pacman-contrib \
+    power-profiles-daemon \
     powertop \
     telegram-desktop \
     ttf-roboto \
