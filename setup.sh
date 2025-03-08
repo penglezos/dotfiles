@@ -44,6 +44,7 @@ sudo pacman -S \
     powertop \
     telegram-desktop \
     ttf-roboto \
+    unrar \
     veracrypt \
     virtualbox \
     wget \
