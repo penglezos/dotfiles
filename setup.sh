@@ -48,7 +48,8 @@ sudo pacman -S \
     veracrypt \
     virtualbox \
     wget \
-    wireshark-qt
+    wireshark-qt \
+    zram-generator
 
 # Install yay
 echo -e "Installing yay & prefered packages\n"
