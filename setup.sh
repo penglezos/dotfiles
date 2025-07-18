@@ -41,6 +41,7 @@ sudo pacman -S \
     libreoffice-still \
     mission-center \
     nodejs \
+    noto-fonts \
     npm \
     ntfs-3g \
     openrgb \
