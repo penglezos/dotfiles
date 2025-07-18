@@ -51,6 +51,7 @@ sudo pacman -S \
     power-profiles-daemon \
     powertop \
     telegram-desktop \
+    timeshift \
     ttf-roboto \
     unrar \
     veracrypt \
