@@ -44,6 +44,7 @@ sudo pacman -S \
     noto-fonts \
     npm \
     ntfs-3g \
+    obsidian \
     openrgb \
     pacman-contrib \
     power-profiles-daemon \
