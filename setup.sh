@@ -37,6 +37,7 @@ sudo pacman -S \
     inter-font \
     jq \
     keepassxc \
+    krita \
     libreoffice-still \
     mission-center \
     nodejs \
