@@ -30,6 +30,7 @@ sudo pacman -S \
     git-lfs \
     github-cli \
     gnome-tweaks \
+    gparted \
     htop \
     hugo \
     inter-font \
