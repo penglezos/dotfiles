@@ -22,6 +22,7 @@ sudo pacman -S \
     fastfetch \
     filezilla \
     firefox \
+    gcc \
     gedit \
     gimp \
     git \
