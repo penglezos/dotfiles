@@ -45,6 +45,7 @@ sudo pacman -S \
     npm \
     ntfs-3g \
     obsidian \
+    obs-studio \
     openrgb \
     pacman-contrib \
     power-profiles-daemon \
