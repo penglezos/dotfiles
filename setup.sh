@@ -74,6 +74,7 @@ yay -S \
     spotify \
     stremio \
     ttf-ms-win11-auto \
+    ttf-poppins \
     ventoy-bin \
     visual-studio-code-bin
 
