@@ -33,6 +33,7 @@ sudo pacman -S \
     gparted \
     htop \
     hugo \
+    inkscape \
     inter-font \
     jq \
     keepassxc \
