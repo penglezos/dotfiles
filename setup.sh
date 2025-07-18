@@ -24,6 +24,7 @@ sudo pacman -S \
     firefox \
     gcc \
     gedit \
+    ghostty \
     gimp \
     git \
     git-lfs \
