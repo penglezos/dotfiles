@@ -57,6 +57,7 @@ sudo pacman -S \
     veracrypt \
     virtualbox \
     virtualbox-guest-utils \
+    vlc \
     wget \
     wireshark-qt \
     zram-generator
