@@ -60,6 +60,7 @@ sudo pacman -S \
     reflector \
     rclone \
     telegram-desktop \
+    thunderbird \
     timeshift \
     ttf-roboto \
     unrar \
