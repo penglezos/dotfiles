@@ -51,6 +51,9 @@ sudo pacman -S \
     obs-studio \
     openrgb \
     pacman-contrib \
+    php \
+    php-apache \
+    php-gd \
     power-profiles-daemon \
     powertop \
     telegram-desktop \
