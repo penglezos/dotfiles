@@ -19,6 +19,7 @@ sudo pacman -S \
     bluez-utils \
     cups \
     cups-pdf \
+    docker \
     fastfetch \
     filezilla \
     firefox \
