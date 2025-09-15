@@ -54,6 +54,7 @@ sudo pacman -S \
     php \
     php-apache \
     php-gd \
+    pnpm \
     power-profiles-daemon \
     powertop \
     telegram-desktop \
