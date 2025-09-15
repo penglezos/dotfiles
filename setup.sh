@@ -26,6 +26,7 @@ sudo pacman -S \
     gcc \
     gedit \
     ghostty \
+    gnome-shell-extensions \
     gimp \
     git \
     git-lfs \
