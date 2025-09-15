@@ -57,6 +57,7 @@ sudo pacman -S \
     pnpm \
     power-profiles-daemon \
     powertop \
+    reflector \
     rclone \
     telegram-desktop \
     timeshift \
