@@ -33,6 +33,7 @@ sudo pacman -S \
     github-cli \
     gnome-tweaks \
     gparted \
+    gradle \
     htop \
     hugo \
     inkscape \
