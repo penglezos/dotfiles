@@ -88,6 +88,7 @@ yay -S \
     ttf-ms-win11-auto \
     ttf-poppins \
     ventoy-bin \
+    viber \
     visual-studio-code-bin
 
 # Install Brother MFC-L2800DW Printer
