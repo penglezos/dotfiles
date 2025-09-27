@@ -84,7 +84,6 @@ yay -S \
     android-studio \
     aosp-devel \
     balena-etcher \
-    docker-desktop \
     downgrade \
     extension-manager \
     google-chrome \
