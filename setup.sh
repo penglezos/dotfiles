@@ -20,6 +20,7 @@ sudo pacman -S \
     cups \
     cups-pdf \
     docker \
+    docker-compose \
     fastfetch \
     filezilla \
     firefox \
