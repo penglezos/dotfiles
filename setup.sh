@@ -9,69 +9,9 @@
 
 # Install necessary packages
 echo -e "Installing packages...\n"
-sudo pacman -S \
-    android-tools \
-    android-udev \
-    audacity \
-    base-devel \
-    blueman \
-    bluez \
-    bluez-utils \
-    cups \
-    cups-pdf \
-    docker \
-    docker-compose \
-    fastfetch \
-    filezilla \
-    firefox \
-    gcc \
-    gedit \
-    ghostty \
-    gnome-shell-extensions \
-    gimp \
-    git \
-    git-lfs \
-    github-cli \
-    gnome-tweaks \
-    gparted \
-    gradle \
-    htop \
-    hugo \
-    inkscape \
-    inter-font \
-    jq \
-    keepassxc \
-    krita \
-    libreoffice-still \
-    mission-center \
-    nodejs \
-    noto-fonts \
-    npm \
-    ntfs-3g \
-    obsidian \
-    obs-studio \
-    openrgb \
-    pacman-contrib \
-    php \
-    php-apache \
-    php-gd \
-    pnpm \
-    power-profiles-daemon \
-    powertop \
-    reflector \
-    rclone \
-    telegram-desktop \
-    thunderbird \
-    timeshift \
-    ttf-roboto \
-    unrar \
-    veracrypt \
-    virtualbox \
-    virtualbox-guest-utils \
-    vlc \
-    wget \
-    wireshark-qt \
-    zram-generator
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PACKAGES=$(grep -v '^#' "$SCRIPT_DIR/packages/packages.list" | grep -v '^$' | tr '\n' ' ')
+sudo pacman -S $PACKAGES
 
 # Install yay
 echo -e "Installing yay & prefered packages\n"
@@ -79,27 +19,8 @@ git clone https://aur.archlinux.org/yay.git && cd yay
 makepkg -si
 cd .. && rm -rf yay
 
-yay -S \
-    android-apktool \
-    android-sdk \
-    android-studio \
-    aosp-devel \
-    balena-etcher \
-    downgrade \
-    extension-manager \
-    google-chrome \
-    lineageos-devel \
-    local-by-flywheel-bin \
-    onlyoffice-bin \
-    polychromatic \
-    refine \
-    spotify \
-    stremio \
-    ttf-ms-win11-auto \
-    ttf-poppins \
-    ventoy-bin \
-    viber \
-    visual-studio-code-bin
+AUR_PACKAGES=$(grep -v '^#' "$SCRIPT_DIR/packages/aur-packages.list" | grep -v '^$' | tr '\n' ' ')
+yay -S $AUR_PACKAGES
 
 # Install Brother MFC-L2800DW Printer
 git clone https://github.com/penglezos/brother-mfc-l2800dw && cd brother-mfc-l2800dw
@@ -108,8 +29,8 @@ makepkg --install
 # If device is a laptop install necessary packages
 if [ -d "/proc/acpi/button/lid" ]; then
     echo -e "Installing packages for laptop...\n"
-    sudo pacman -S \
-        tlp
+    LAPTOP_PACKAGES=$(grep -v '^#' "$SCRIPT_DIR/packages/laptop-packages.list" | grep -v '^$' | tr '\n' ' ')
+    sudo pacman -S $LAPTOP_PACKAGES
 fi
 
 # Enable bluetooth service
