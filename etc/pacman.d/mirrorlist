@@ -3,12 +3,11 @@
 ################################################################################
 
 # With:       reflector --country Greece --latest 5 --protocol http --protocol https --sort rate --save /etc/pacman.d/mirrorlist
-# When:       2025-04-10 10:37:44 UTC
+# When:       2025-10-26 16:33:39 UTC
 # From:       https://archlinux.org/mirrors/status/json/
-# Retrieved:  2025-04-10 10:37:41 UTC
-# Last Check: 2025-04-10 10:29:43 UTC
+# Retrieved:  2025-10-26 16:32:43 UTC
+# Last Check: 2025-10-26 15:46:28 UTC
 
-Server = http://ftp.otenet.gr/linux/archlinux/$repo/os/$arch
 Server = http://ftp.cc.uoc.gr/mirrors/linux/archlinux/$repo/os/$arch
-Server = http://ftp.ntua.gr/pub/linux/archlinux/$repo/os/$arch
+Server = http://ftp.otenet.gr/linux/archlinux/$repo/os/$arch
 Server = https://repo.greeklug.gr/data/pub/linux/archlinux/$repo/os/$arch
