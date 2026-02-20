@@ -1,21 +1,50 @@
 {
-    "tabnine.experimentalAutoImports": true,
-    "workbench.startupEditor": "none",
-    "git.autofetch": true,
-    "gitlens.telemetry.enabled": false,
-    "telemetry.telemetryLevel": "off",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[shellscript]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
-    },
-    "workbench.editorAssociations": {
-        "*.copilotmd": "vscode.markdown.preview.editor",
-        "*.yml": "default"
-    },
-    "window.autoDetectColorScheme": true
+  "tabnine.experimentalAutoImports": true,
+  "workbench.startupEditor": "none",
+  "git.autofetch": true,
+  "gitlens.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.yml": "default"
+  },
+  "window.autoDetectColorScheme": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svg.preview.mode": "svg",
+  "git.enableSmartCommit": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "diffEditor.codeLens": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.accessibilitySupport": "on",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "chat.viewSessions.orientation": "stacked",
+  "claudeCode.preferredLocation": "panel"
 }
