@@ -66,6 +66,7 @@ veracrypt
 virtualbox
 virtualbox-guest-utils
 vlc
+vlc-plugin-ffmpeg
 wget
 wireshark-qt
 zram-generator
