@@ -69,4 +69,6 @@ vlc
 vlc-plugin-ffmpeg
 wget
 wireshark-qt
+yt-dlp
+zed
 zram-generator
