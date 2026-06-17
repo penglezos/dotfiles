@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2022-2025 Panagiotis Englezos <panagiotisegl@gmail.com>
+# Copyright (C) 2022-2025 Panagiotis Englezos
 #
 # SPDX-License-Identifier: Apache-2.0
 #
